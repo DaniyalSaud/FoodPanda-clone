@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    font-family: centrury gothic, sans-serif;
+}
+
+.top-nav{
+    background-color: rgb(157, 47, 104);
+    color: white;
+    text-align: center;
+    height: 3.5rem;
+}
+
+#top-nav-text{
+    font-size: 24px;
+    display: inline-block;
+    padding-top: 0.6rem;
+}
+
+#top-nav-button{
+    margin-left: 1%;   
+    color: white;
+    font-weight: bold;
+    background-color: rgb(157, 47, 104);
+    border-color: white;
+    border: 1px solid white;
+    height: 2.6rem;
+    width: 7rem;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+#top-nav-button:hover{
+    background-color: white;
+    color: rgb(157, 47, 104);
+    transition: 0.2s ease-in-out;
+}
