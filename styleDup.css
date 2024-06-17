@@ -11,9 +11,10 @@
 }
 
 #top-nav-text{
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 800;
     display: inline-block;
-    padding-top: 0.6rem;
+    padding-top: 0.9rem;
 }
 
 #top-nav-button{
@@ -34,3 +35,52 @@
     color: rgb(157, 47, 104);
     transition: 0.2s ease-in-out;
 }
+
+.bottom-nav{
+    height: 3.3rem;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.093);}
+
+#bottom-nav-text{
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 0.2%;
+    display: inline-block;
+    padding-top: 0.6rem;
+}
+
+#btm-login{
+    margin-left: 72%;   
+    color: rgb(157, 47, 104);
+    font-weight: bold;
+    border: 1px solid rgb(157, 47, 104);
+    transition: 0.1s ease-in-out;
+}
+
+#btm-sign-up{
+    background-color: rgb(157, 47, 104);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(157, 47, 104);
+    transition: 0.1s ease-in-out;
+}
+
+#btm-login:hover{
+    transform:scale(1.04);
+    font-weight: bold;
+    transition: 0.1s ease-in-out;
+}
+
+#btm-sign-up:hover{
+    transform:scale(1.04);
+    font-weight: bold;
+    transition: 0.1s ease-in-out;
+}
+
+#btm-login, #btm-sign-up{
+    border-radius: 10px;
+    height: 2rem;
+    width: 5rem;
+}
+
+
+
