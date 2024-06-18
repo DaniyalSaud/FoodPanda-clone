@@ -3,49 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoodPanda</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Foodpanda</title>
+    <link rel="stylesheet" href="styleDup.css">
 </head>
 <body>
-
-    <header>
-        <div class="busi-acc">
-            <!-- Image also here -->
-            <h1 id="top-bar">Do you need a business account? 
-                <button id="sign-up">Sign up</button>
-            </h1>
+    <div class="nav-bar">
+        <div class="top-nav">
+            <h1 id="top-nav-text">Do you need a business account?</h1>
+            <button id="top-nav-button">SIGN UP NOW</button>
         </div>
 
-        <div class="login">
-            <h1 class="corner-name">foodpanda
-                <button id="log-in">Log in</button>
-                <button id="sign-up2">Sign up</button>
-                <button id="lang">Lang</button>
-                <button id="shop">Shop</button>
-            </h1>
+        <div class="bottom-nav">
+            <h1 id="bottom-nav-text">foodpanda</h1>
+            <button id="btm-login">LOG IN</button>
+            <button id="btm-sign-up">SIGN UP</button>
+            <button id="btm-lang">
+                <img id="lang-id" src="images/lang.jpeg" alt="Language" />
+            </button>
+            <button id="btm-shop"><img id="shop-id" src="images/cart.png" alt="Shop" />
+        </button>
         </div>
-    </header>
+    </div>
 
-    <div class="main-body">
-        <div class="top-content">
-            <div class="food-cnt">
-                <h1 id="food-text"> It's the food and groceries you love, delivered</h1>
-                
-                <div class="form">
-                    <form action="search.php" method="POST">
-                        <input type="text" name="search" id="search" placeholder="Enter your delivery address">
-                        <button id="search-btn">Search</button>
-                    </form>
-                </div>
-            </div>
+    <div class="main-sec-a">
+        <div class="sec-a-form-div">
+            <h1 id="sec-a-text">It's the food and groceries you love, delivered</h1>
             
-            <div class="image-1">
-                <img id="image1" src="images/big-image.png" alt="image of a purple panda, crazy panda"
-                height="400px"/>
+            <div class="form">
+                <form id="sec-a-form">
+                    <input type="text" id="sec-a-input" placeholder="Your street and street number" name="street">
+                    <button id="sec-a-button">Find food</button>
+                </form>
             </div>
         </div>
         
+        <div class="sec-a-img-div">
+            <img id="sec-a-img" src="images/big-image.png" alt="Panda Image" height="500"/>
+        </div>
     </div>
+
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+
+    <div class="main-sec-b">
+        <h1 id="sec-b-text">You prepare the food, we handle the rest</h1>
+        <br/> 
+        <div class="sec-b-img-div">
+            <img id="sec-b-img" src="images/big-image-2.png" alt="A Chef playing with fire, playing with his life" height="500"/>
+            <div class="empty-white-box"></div>
+            <div class="sec-b-text-box">
+                <h1 style="font-size: 24px; margin-left: 2%; padding-top: 1%;">List your restaurant or shop on foodpanda</h1>
+                <p id="sec-b-para">Would you like millions of new customers to enjoy your amazing food and groceries? So would we!</p>
+                <br/>
+                <p id="sec-b-para">It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat!</p>
+                <br/>
+                <p id="sec-b-para">Interested? Let's start our partnership today!
+                </p>
+                <br/>
+                <button id="sec-b-start-btn">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-sec-c">
+        <h1 id="sec-c-text">Find us in these cities and more</h1>
+        <br/>
+        <div class="city-grid">
+            <div class="city-container">
+                <img id="city-img" src="images/islamabad.jpg" alt="ISL"></img>
+                <h1 id="city-text">Islamabad</h1>
+            </div>
+
+            <div class="city-container">
+                <img id="city-img" src="images/Karachi.jpg" alt="ISL"></img>
+                <h1 id="city-text">Karachi</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/LHR.jpg" alt="ISL"></img>
+                <h1 id="city-text">Lahore</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/FSL.jpg" alt="ISL"></img>
+                <h1 id="city-text">Faisalabad</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/RWL.jpg" alt="ISL"></img>
+                <h1 id="city-text">Rawalpindi</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/ABT.jpg" alt="ISL"></img>
+                <h1 id="city-text">Abottabad</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/ABT.jpg" alt="ISL"></img>
+                <h1 id="city-text">Abottabad</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/BHW.jpg" alt="ISL"></img>
+                <h1 id="city-text">Bahawalpur</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/DG.jpg" alt="ISL"></img>
+                <h1 id="city-text">Dera Ghazi Khan</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/GJW.jpg" alt="ISL"></img>
+                <h1 id="city-text">Gujranwala</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/GJU.JPG" alt="ISL"></img>
+                <h1 id="city-text">Gujrat</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/JHL.jpg" alt="ISL"></img>
+                <h1 id="city-text">Jhelum</h1>
+            </div>
+            <div class="city-container">
+                <img id="city-img" src="images/HYD.jpg" alt="ISL"></img>
+                <h1 id="city-text">Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+
+    <br/> <br/> 
+
+    <div class="main-sec-d">
+        <h1 id="sec-d-text">Put us in your pocket</h1>
+        <br/>
+        <div class="sec-d-purp-box">
+            <div class="left-side-purp-d">
+                <img id="sec-d-img" src="images/2-phones.png" alt="Phone" height="300"/>
+                <h1 id="sec-d-text-2">Download the food and groceries you love</h1>
+                <br/> <br/> 
+                <p id="sec-d-para">It's all at your fingertips – the restaurants and shops you love. Find the right food and groceries to suit your mood, and make the first bite last. Go ahead, download us.</p>
+                <br/>  
+                <button id="sec-d-app">App Store</button>
+                <button id="sec-d-goog">Google Play</button>
+                <button id="sec-d-gall">AppGallery</button>
+            </div>
+        </div>
+    </div>  
 
 </body>
 </html>
