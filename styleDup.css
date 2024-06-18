@@ -3,6 +3,14 @@
     font-family: century gothic, sans-serif;
 }
 
+.empty-white-box{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 1450px;
+}
+
 body{
     min-width: 1660px;
     max-width: 1940px;
