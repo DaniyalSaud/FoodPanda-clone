@@ -82,5 +82,36 @@
     width: 5rem;
 }
 
+.main-sec-a{
 
+}
 
+.sec-a-form-div{
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+}
+
+#sec-a-form{
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+#sec-a-text{
+    margin-bottom:5%;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+.sec-a-img-div{
+    display: inline-block;
+    width:  60%;
+    height: 60%;
+    
+}
+
+#sec-a-img{
+    margin-left: 65%;
+}
